@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url("assets/images/bkgrnd.png");
+
+    
+    
+    }
+    .container {
+    width:960px;
+    margin: auto;
+    
+    
+    
+    }
+    
+    .header {
+    background:#ffffff;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    
+    }
+    .logo {
+    float:left;
+    font-family:"Georgia";
+    background:#4aaaa5;
+    color:white;
+    
+    }
+    a {
+    text-decoration: none;
+    }
+    li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px;
+    
+    }
+    .nav {
+    float: right;
+    
+    }
+    .h1 {
+    background:#4aaaa5;
+    color: white;
+    justify-content: flex-start;
+    z-index: 2;
+    }
+    .content {
+    margin: 0 auto;
+    width: 960px;
+    }
+    .wrapper {
+    
+    position: relative;
+    height: 642px;
+    float: center;
+
+    }
+    #two {
+        color:red;
+        align-content: center;
+        
+    }
+   #textblock {
+       background: white;
+       width: 780px;
+       margin: auto;
+       
+          }
+    hr {
+        
+    }
