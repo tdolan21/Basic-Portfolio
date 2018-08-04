@@ -1,11 +1,14 @@
 body {
     width: 100%;
     margin: auto;
+    z-index: 0;
+    
     }
    
     .container {
     width:960px;
     margin: auto;
+    
     }
     
     .header {
@@ -20,6 +23,7 @@ body {
     font-family:"Georgia";
     background:#4aaaa5;
     color:white;
+    justify-content: center;
     }
     a {
     text-decoration: none;
@@ -48,8 +52,9 @@ body {
     .wrapper {
     
     position: relative;
-    height: 642px;
+    height: 700px;
     float: center;
+    line-height: 200%;
 
     }
     #two {
@@ -59,7 +64,7 @@ body {
     }
    #textblock {
        background: white;
-       width: 780px;
+       width: 960px;
        margin: auto;
        
           }
@@ -69,3 +74,25 @@ body {
     }
     
     #form {margin: auto}
+    
+    img {
+        margin: 10px;
+        justify-content: center;
+    }
+    background {
+        z-index: 0;
+    }
+    .scroll {
+        overflow: scroll;
+    }
+    h2 {
+        color:#4aaaa5;
+        justify-content: center;
+
+    }
+    h1 {
+        justify-content: center;
+    }
+   text {
+       line-height: 200%;
+   }
